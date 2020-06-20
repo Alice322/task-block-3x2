@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .column1 > div, .column2 > div {
+            font-size: 500%;
+            width: 200px;
+            height: 200px;
+            color: rgba(1, 22, 39, 0.7);
+            align-items: center;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+        }
+        .column1 > div:nth-of-type(1) {background:#FFCDB2;}
+        .column1 > div:nth-of-type(2) {background:#FFB4A2;}
+        .column1 > div:nth-of-type(3) {background:#E5989B;}
+
+        .column2 > div:nth-of-type(1) {background:#B5838D;}
+        .column2 > div:nth-of-type(2) {background:#917681;}
+        .column2 > div:nth-of-type(3) {background:#6D6875;}
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class = 'container'>
+        <div class = 'column1'>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class = 'column2'>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+    </div>
+</body>
+</html>
